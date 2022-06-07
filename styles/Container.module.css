@@ -1,0 +1,18 @@
+main.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.main__title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.yutu__title {
+  color: rgb(220 38 38);
+}

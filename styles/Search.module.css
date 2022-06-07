@@ -1,0 +1,31 @@
+.form {
+  max-width: 584px;
+  width: 100%;
+}
+
+.form__label {
+  position: relative;
+  height: 40px;
+  border: 1px solid #5f6368;
+  border-radius: 24px;
+}
+
+.input__icon {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 8px;
+  left: 12px;
+  pointer-events: none;
+}
+
+.input__field {
+  width: 80%;
+  background: transparent;
+  border: none; 
+  margin-left: 48px;
+  margin-top: 10px;
+  font-size: 1rem;
+  outline: none;
+  /* padding: 12px; */
+}

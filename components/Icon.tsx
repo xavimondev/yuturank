@@ -1,12 +1,6 @@
 const IconSearch = ({ ...rest }) => {
   return (
-    <svg
-      {...rest}
-      height='21'
-      viewBox='0 0 21 21'
-      width='21'
-      xmlns='http://www.w3.org/2000/svg'
-    >
+    <svg {...rest} height='21' viewBox='0 0 21 21' width='21' xmlns='http://www.w3.org/2000/svg'>
       <g
         fill='none'
         fillRule='evenodd'
@@ -18,7 +12,7 @@ const IconSearch = ({ ...rest }) => {
         <path d='m17.571 17.5-5.571-5.5' />
       </g>
     </svg>
-  );
-};
+  )
+}
 
-export default IconSearch;
+export default IconSearch

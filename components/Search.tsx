@@ -1,5 +1,5 @@
-import styles from '../styles/Search.module.css';
-import IconSearch from './Icon';
+import styles from '../styles/Search.module.css'
+import IconSearch from './Icon'
 
 const Search = () => {
   return (
@@ -16,7 +16,7 @@ const Search = () => {
         </div>
       </form>
     </>
-  );
-};
+  )
+}
 
-export default Search;
+export default Search

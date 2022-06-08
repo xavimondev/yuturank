@@ -1,7 +1,7 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Container from '../components/Container';
-import Search from '../components/Search';
+import type { NextPage } from 'next'
+import Head from 'next/head'
+import Container from '../components/Container'
+import Search from '../components/Search'
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <Search />
       </Container>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

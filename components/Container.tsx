@@ -1,8 +1,8 @@
-import styles from '../styles/Container.module.css';
+import styles from '../styles/Container.module.css'
 
 type Props = {
-  children: React.ReactNode;
-};
+  children: React.ReactNode
+}
 
 const Container = ({ children }: Props) => {
   return (
@@ -13,7 +13,7 @@ const Container = ({ children }: Props) => {
       </h1>
       {children}
     </main>
-  );
-};
+  )
+}
 
-export default Container;
+export default Container

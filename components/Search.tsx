@@ -1,8 +1,8 @@
 import { useCallback, useRef } from 'react'
 import debounce from 'just-debounce-it'
-import { getResultsByChannel } from '../services/api'
+import { getResultsByChannel } from 'services/api'
 import IconSearch from './Icon'
-import styles from '../styles/Search.module.css'
+import styles from 'styles/Search.module.css'
 
 const Search = () => {
   const channelInputRef = useRef<HTMLInputElement>(null)

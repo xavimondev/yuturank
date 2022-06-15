@@ -1,0 +1,30 @@
+.container-results {
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid gray;
+  border-top: none;
+  width: 100%;
+}
+
+.list-results {
+  list-style: none;
+  padding: 10px;
+}
+
+.list-results li {
+  margin-bottom: 0.5rem;
+  padding: 0.35rem 0.6rem;
+}
+
+.list-results li:hover {
+  background-color: rgb(212 212 216);
+  border-radius: 10px;
+}
+
+.list-results a {
+  font-size: 1rem;
+  color: rgb(107 114 128);
+  font-weight: 500;
+  text-decoration: none;
+}

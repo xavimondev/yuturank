@@ -15,7 +15,7 @@ const ListResults = ({ results, setValue }: Props) => {
     <div className={`${styles['container-results']} ${hasResults && styles['dynamic-border']}`}>
       {hasResults && (
         <ul className={styles['list-results']}>
-          {results.map(({ id, title, description, thumbnail }: Channel) => (
+          {results.map(({ id, title, thumbnail }: Channel) => (
             <li key={id} onClick={() => setValue(title)}>
               <Image
                 src={thumbnail}

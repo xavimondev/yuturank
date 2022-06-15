@@ -15,9 +15,8 @@ const Search = () => {
     debounce(async () => {
       const q = channelInputRef.current?.value
       const results = await getResultsByChannel(q!)
-      // console.log(results)
       setResults(results)
-    }, 250),
+    }, 150),
     []
   )
 
@@ -29,8 +28,8 @@ const Search = () => {
   // console.log(results)
   const handleSearch = () => {
     const q = getValue()
-    console.log(q)
     if (!q) {
+      // Clear results because the user has cleared the input
       setResults([])
       return
     }

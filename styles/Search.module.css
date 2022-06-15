@@ -29,3 +29,8 @@
   outline: none;
   /* padding: 12px; */
 }
+
+.dynamic-border {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}

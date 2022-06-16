@@ -5,3 +5,11 @@ export interface Channel {
   publishTime: string
   thumbnail: string
 }
+
+export interface ChannelDetails {
+  channel: Channel
+  country: string
+  subscriberCount: number
+  videoCount: number
+  viewCount: number
+}

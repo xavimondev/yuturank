@@ -10,7 +10,6 @@ type Props = {
 
 const ListResults = ({ results, setValue }: Props) => {
   const hasResults = Boolean(results.length)
-  console.log(results)
   return (
     <div className={`${styles['container-results']} ${hasResults && styles['dynamic-border']}`}>
       {hasResults && (

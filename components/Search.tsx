@@ -2,7 +2,7 @@ import { useCallback, useRef, useState } from 'react'
 import debounce from 'just-debounce-it'
 import { getResultsByChannel } from 'services/api'
 import { Channel } from 'types'
-import IconSearch from './Icon'
+import { IconSearch } from './Icon'
 import ListResults from './ListResults'
 import styles from 'styles/Search.module.css'
 

@@ -14,7 +14,7 @@ const ChannelDetail = ({ channelDetails }: Props) => {
   console.log(channelDetails)
   const { channel, country, subscriberCount, viewCount, videoCount } = channelDetails
   const { title, description, thumbnail, publishTime } = channel
-
+  // Resources: https://dribbble.com/shots/16894605/attachments/11959653?mode=media
   return (
     <>
       <main className={styles['container']}>
@@ -51,6 +51,9 @@ const ChannelDetail = ({ channelDetails }: Props) => {
               </div>
             </div>
           </header>
+          <section className={styles['channel__videos']}>
+            <h1>Mostly Played</h1>
+          </section>
         </div>
       </main>
     </>

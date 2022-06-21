@@ -17,6 +17,7 @@
   flex-direction: row;
   align-items: center;
   gap: 30px;
+  margin-bottom: 50px;
 }
 
 .channel__header img {
@@ -66,5 +67,3 @@
   color: #718096;
   font-weight: 400;
 }
-
-
